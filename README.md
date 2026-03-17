@@ -1,122 +1,24 @@
-# AUTO-VIC
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Vic | Especialistas em Eletricidade Automotiva</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary: #FF4D00; /* Laranja do Logo */
-            --secondary: #FFCC00; /* Amarelo Elétrico */
-            --dark: #0a0a0a;
-            --dark-card: #161616;
-            --gray-text: #b3b3b3;
-            --white: #ffffff;
-            --gradient: linear-gradient(90deg, #FF4D00, #FFCC00);
-        }
+# Auto Vic - Electricidade Automotiva ⚡
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
+Este é o website oficial da **Auto Vic**, uma oficina especializada em soluções elétricas automotivas de alta tecnologia, localizada na Matola, Moçambique.
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--dark);
-            color: var(--white);
-            line-height: 1.6;
-        }
+## 🚀 Tecnologias Utilizadas
+- HTML5
+- CSS3 (Design Moderno & Responsivo)
+- Google Maps API (Integração de Localização)
+- GitHub Pages (Hospedagem)
 
-        /* Header & Nav */
-        header {
-            background: rgba(0, 0, 0, 0.9);
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid var(--primary);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+## 📍 Localização
+Estamos situados na **Matola - Cinema 700**, prontos para oferecer diagnósticos de precisão para o seu veículo.
 
-        header img {
-            max-width: 250px;
-            filter: drop-shadow(0 0 10px rgba(255, 77, 0, 0.3));
-        }
+## 🛠️ Funcionalidades
+- Interface em Dark Mode (Estética Tech).
+- Botões de contacto direto (WhatsApp e Chamada).
+- Lista detalhada de serviços especializados.
+- Design adaptável para Telemóveis e Computadores.
 
-        nav {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 15px;
-        }
-
-        nav a {
-            color: var(--white);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            text-transform: uppercase;
-            transition: 0.3s;
-            letter-spacing: 1px;
-        }
-
-        nav a:hover {
-            color: var(--secondary);
-        }
-
-        /* Seção Hero */
-        .hero {
-            padding: 80px 20px;
-            text-align: center;
-            background: radial-gradient(circle at center, #1a1a1a 0%, #000 100%);
-        }
-
-        .hero h1 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 3rem;
-            text-transform: uppercase;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
-        }
-
-        /* Containers e Cards */
-        section {
-            padding: 60px 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .section-title {
-            font-family: 'Oswald', sans-serif;
-            font-size: 2rem;
-            margin-bottom: 30px;
-            border-left: 5px solid var(--primary);
-            padding-left: 15px;
-            text-transform: uppercase;
-        }
-
-        .card {
-            background: var(--dark-card);
-            border: 1px solid #333;
-            padding: 30px;
-            border-radius: 15px;
-            transition: 0.3s;
-            height: 100%;
-        }
-
-        .card:hover {
-            border-color: var(--primary);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255, 77, 0, 0.1);
-        }
+---
+*Desenvolvido para proporcionar a melhor experiência digital aos nossos clientes.*        }
 
         /* Grid de Serviços */
         .services-grid {
